@@ -1,0 +1,14 @@
+Script self: C:/Users/Emilio/Documents/eagle/ulps/oshpark-install.ulp
+Script self dir: C:/Users/Emilio/Documents/eagle/ulps/
+File source dir: C:/Users/Emilio/Documents/eagle/ulps//..
+ULP Dir: C:/Users/Emilio/Documents/EAGLE/ulps
+SCR Dir: C:/Users/Emilio/Documents/EAGLE/scripts
+BIN Dir: C:/Program Files/EAGLE 9.1.1/
+Found Eagle Version 9.100000
+Found a brd section from 8 to 17
+?? MENU ' [oshpark.png]Oshpark{Upload PCB: RUN oshpark-upload.ulp;|Check for updates: RUN oshpark.ulp update;|Update and install:RUN oshpark.ulp update install;} '; ??
+++ MENU ' [oshpark.png]Oshpark{Upload PCB: RUN oshpark-upload.ulp;|Check for updates: RUN oshpark.ulp update;|Update and install:RUN oshpark.ulp update install;} ';
+ ++
+Installing menu.!
+>> MENU ' [oshpark.png]Oshpark{Upload PCB: RUN oshpark-upload.ulp;|Check for updates: RUN oshpark.ulp update;|Update and install:RUN oshpark.ulp update install;} ';
+
