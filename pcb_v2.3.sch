@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -6929,22 +6929,10 @@ W = angled&lt;p&gt;
 </net>
 <net name="SW_LOW" class="0">
 <segment>
-<wire x1="196.85" y1="148.59" x2="199.39" y2="148.59" width="0.1524" layer="91"/>
-<wire x1="199.39" y1="148.59" x2="199.39" y2="151.13" width="0.1524" layer="91"/>
-<wire x1="199.39" y1="151.13" x2="199.39" y2="153.67" width="0.1524" layer="91"/>
-<wire x1="196.85" y1="151.13" x2="199.39" y2="151.13" width="0.1524" layer="91"/>
-<junction x="199.39" y="151.13"/>
-<label x="199.39" y="153.67" size="1.778" layer="95" rot="R90"/>
-<pinref part="SW1" gate="S" pin="4"/>
-<pinref part="SW1" gate="S" pin="3"/>
-</segment>
-<segment>
 <pinref part="SV2" gate="G$1" pin="8"/>
 <wire x1="72.39" y1="161.29" x2="62.23" y2="161.29" width="0.1524" layer="91"/>
 <label x="63.5" y="161.29" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="SW_MID" class="0">
 <segment>
 <wire x1="219.71" y1="148.59" x2="222.25" y2="148.59" width="0.1524" layer="91"/>
 <wire x1="222.25" y1="148.59" x2="222.25" y2="151.13" width="0.1524" layer="91"/>
@@ -6955,10 +6943,22 @@ W = angled&lt;p&gt;
 <pinref part="SW2" gate="S" pin="4"/>
 <pinref part="SW2" gate="S" pin="3"/>
 </segment>
+</net>
+<net name="SW_MID" class="0">
 <segment>
 <pinref part="SV2" gate="G$1" pin="6"/>
 <wire x1="72.39" y1="158.75" x2="62.23" y2="158.75" width="0.1524" layer="91"/>
 <label x="63.5" y="158.75" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="196.85" y1="148.59" x2="199.39" y2="148.59" width="0.1524" layer="91"/>
+<wire x1="199.39" y1="148.59" x2="199.39" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="199.39" y1="151.13" x2="199.39" y2="153.67" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="151.13" x2="199.39" y2="151.13" width="0.1524" layer="91"/>
+<junction x="199.39" y="151.13"/>
+<label x="199.39" y="153.67" size="1.778" layer="95" rot="R90"/>
+<pinref part="SW1" gate="S" pin="4"/>
+<pinref part="SW1" gate="S" pin="3"/>
 </segment>
 </net>
 <net name="NC" class="0">
